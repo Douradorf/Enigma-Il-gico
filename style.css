@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #c8aa11;
+  text-align: center;
+  padding: 20px;
+}
+
+.tela {
+  max-width: 600px;
+  margin: auto;
+  padding: 30px;
+  background-color: #3e2c06;
+  color: white;
+  border-radius: 20px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #f0c419;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e0b010;
+}
+
+.pergunta {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.resposta {
+  margin: 10px 0;
+  text-align: left;
+}
+
+.logo-shrek {
+  display: flex;
+  justify-content: center; 
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.trofeu {
+  display: flex;
+  justify-content: center;  
+  height: 200px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Enigma Ilógico by Shrek</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="logo-shrek">
+    <img src="logo.png" alt="Logo do Shrek">
+    </div>
+    <div id="tela-inicial" class="tela">   
+    <h1>Bem-vindo! Vamos começar o quiz</h1>
+    <button onclick="iniciarQuiz()">Começar</button>
+  </div>
+
+  <div id="quiz-box" class="tela" style="display:none;">
+    <div id="pergunta" class="pergunta"></div>
+    <div id="respostas"></div>
+    <button id="proximo" onclick="proximaPergunta()">Próxima</button>
+  </div>
+
+  <div id="tela-final" class="tela" style="display:none;">
+    <h1>Parabéns</h2>
+    <h3>Para o Sherk você é um Campeão!</h2>
+    <div class="trofeu">
+    <img src="trofeu.png" alt="Troféu Campeão!">
+    </div>
+    <p id="pontuacao-final"></p>
+    <button onclick="reiniciarQuiz()">Recomeçar</button>
+  </div>
+
+  <script src="quiz.js"></script>
+</body>
+</html>

@@ -31,6 +31,7 @@ button:hover {
 .pergunta {
   font-size: 20px;
   margin-bottom: 15px;
+  text-align: left;
 }
 
 .resposta {
